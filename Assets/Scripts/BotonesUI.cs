@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BotonesUI : MonoBehaviour
 {
+    public int offset;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,10 @@ public class BotonesUI : MonoBehaviour
     void Update()
     {
         
+    }
+    public void SetRandomPosition()
+    {
+        Vector3 newPosition = new Vector3(Random.Range(0, offset), 9, Random.Range(0, offset));
+        trasform.position = newPosition;
     }
 }
