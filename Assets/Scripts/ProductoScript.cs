@@ -7,7 +7,7 @@ public class ProductoScript : MonoBehaviour
     public GameObject[] productoAsset; 
     public Transform objectSpawnPoint; 
     public float interval;
-    public BotonesUI randomSpawn;
+    public SpawnerPosition randomSpawn;
     public int objectCounter = 0;
     public int maxSpawnedObjects;
     void Start()
