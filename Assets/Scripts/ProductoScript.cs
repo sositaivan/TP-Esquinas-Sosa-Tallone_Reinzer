@@ -12,7 +12,7 @@ public class ProductoScript : MonoBehaviour
     public int maxSpawnedObjects;
     void Start()
     {
-        InvokeRepeating(nameof(CloneFodd), 0, interval);
+        InvokeRepeating(nameof(FoodSpawner), 0, interval);
         maxSpawnedObjects = Random.Range(2, 8);
     }
 
@@ -20,5 +20,22 @@ public class ProductoScript : MonoBehaviour
     void Update()
     {
         
+    }
+    public void FoodSpawner()
+    {
+        if(objectCounter < maxSpawnedObjects)
+        {
+            objectCounter++;
+            randomSpawn.SetRandomPosition();
+            GameObject prefab = productoAsset[Random.Range(0, productoAsset.Length)];
+            Instantiate(prefab, objectSpawnPoint.position, objectSpawnPoint.rotation);
+        }
+    }
+    public void DeactivateAll()
+    {;
+        for (int i = 0; i < productoAsset.Length; i++)
+        {
+            productoAsset[i].SetActive(false);
+        }
     }
 }
