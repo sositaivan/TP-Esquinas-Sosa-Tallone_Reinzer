@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BotonesUI : MonoBehaviour
+public class SpawnerPosition : MonoBehaviour
 {
     public int offset;
     // Start is called before the first frame update
