@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ProductoScript : MonoBehaviour
 {
-    public GameObject[] productoAsset;
-    public GameObject[] productoSpawn;
-    public float spawnDelay = 1.5f;
-    public float screenChangeDelay = 5.5f;
-    public int cantidad;
-    // Start is called before the first frame update
+    public GameObject[] productoAsset; 
+    public Transform objectSpawnPoint; 
+    public float interval;
+    public BotonesUI randomSpawn;
+    public int objectCounter = 0;
+    public int maxSpawnedObjects;
     void Start()
     {
-        cantidad = Random.Range(4, 20);
-        int elemento = Random.Range(0, 20);
+        InvokeRepeating(nameof(CloneFodd), 0, interval);
+        maxSpawnedObjects = Random.Range(2, 8);
     }
 
     // Update is called once per frame
