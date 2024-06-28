@@ -13,7 +13,7 @@ public class ProductoScript : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(FoodSpawner), 0, interval);
-        maxSpawnedObjects = Random.Range(2, 8);
+        maxSpawnedObjects = Random.Range(5, 12);
     }
 
     // Update is called once per frame
