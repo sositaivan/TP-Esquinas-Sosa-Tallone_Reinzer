@@ -18,7 +18,7 @@ public class ProductoScript : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating(nameof(FoodSpawner), 0, interval);
+        InvokeRepeating(nameof(ProductSpawner), 0, interval);
         maxSpawnedObjects = Random.Range(5, 15);
     }
 
@@ -27,7 +27,7 @@ public class ProductoScript : MonoBehaviour
     {
         
     }
-    public void FoodSpawner()
+    public void ProductSpawner()
     {
         if(objectCounter < maxSpawnedObjects)
         {
@@ -37,7 +37,6 @@ public class ProductoScript : MonoBehaviour
             Instantiate(prefab, objectSpawnPoint.position, objectSpawnPoint.rotation);
         }
     }
-  
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
