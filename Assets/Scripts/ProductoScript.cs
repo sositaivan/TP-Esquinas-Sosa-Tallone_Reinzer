@@ -37,13 +37,7 @@ public class ProductoScript : MonoBehaviour
             Instantiate(prefab, objectSpawnPoint.position, objectSpawnPoint.rotation);
         }
     }
-    public void DeactivateAll()
-    {;
-        for (int i = 0; i < productoAsset.Length; i++)
-        {
-            productoAsset[i].SetActive(false);
-        }
-    }
+  
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
