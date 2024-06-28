@@ -129,6 +129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kovalsky Ninni_Agustin_48588255
       objectReference: {fileID: 0}
+    - target: {fileID: 3430925709284131379, guid: 3796e7c878aa2d94e9bd7219a8b48ac0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3430925709284302355, guid: 3796e7c878aa2d94e9bd7219a8b48ac0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -302,6 +307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Schusterman_Thomas_48461798
+      objectReference: {fileID: 0}
+    - target: {fileID: 9080934732071267791, guid: c35b29ebddd85214c86c4d2ccb1d646e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9080934732073530127, guid: c35b29ebddd85214c86c4d2ccb1d646e,
         type: 3}
@@ -651,6 +661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prokopiec_Victoria Abril_48460663
       objectReference: {fileID: 0}
+    - target: {fileID: 7036255561560813536, guid: 2ab027d9ce45cca45998793ff99391a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7036255561560978368, guid: 2ab027d9ce45cca45998793ff99391a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -734,6 +749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Donato Sesma_Santino Vicente_48111594
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599518083717493099, guid: 488afd9b7dc6af44e8e62472cc92514f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5599518083717590347, guid: 488afd9b7dc6af44e8e62472cc92514f,
         type: 3}
@@ -914,6 +934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sanchez Fernandez De La Vega_Ignacio_48389807
       objectReference: {fileID: 0}
+    - target: {fileID: 7335452366648321301, guid: 75d03910346c6fa4dafcceb8a9c1956d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7335452366650325973, guid: 75d03910346c6fa4dafcceb8a9c1956d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1043,6 +1068,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 932cfc6c9e99d624a88a59e6e23397ad, type: 3}
       propertyPath: m_Name
       value: carne
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 932cfc6c9e99d624a88a59e6e23397ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 932cfc6c9e99d624a88a59e6e23397ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1361,8 +1390,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.0031640704, y: 0.9560723, z: -0.29293206, w: 0.010326847}
-  m_LocalPosition: {x: 0.71316975, y: 1.3538091, z: 8.413218}
+  m_LocalRotation: {x: 0.0064748167, y: 0.9510514, z: -0.3083188, w: 0.019973021}
+  m_LocalPosition: {x: 5.1778755, y: 14.894361, z: 15.223204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1375,6 +1404,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6054191657951571099, guid: 3df0e2075039fe5498752c70d11bbcbf,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1454,7 +1487,7 @@ GameObject:
   - component: {fileID: 574529723}
   - component: {fileID: 574529722}
   m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
+  m_Name: Tiberti_Juana_48038881
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1506,6 +1539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Konoba Caterina_Valentin_48592024
+      objectReference: {fileID: 0}
+    - target: {fileID: 9071941363669015834, guid: d45c72a0642075c46885b69cd0089b43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9071941363669238074, guid: d45c72a0642075c46885b69cd0089b43,
         type: 3}
@@ -1874,7 +1912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000066757, y: -64.124}
+  m_AnchoredPosition: {x: -8.6634, y: -149.03}
   m_SizeDelta: {x: 130.19226, y: 22.24887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693541418
@@ -1968,6 +2006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eslar_Facundo Agustin_48242081
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860093766324973384, guid: 396b6ee401616e747be172214d732a8c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860093766325007208, guid: 396b6ee401616e747be172214d732a8c,
         type: 3}
@@ -2193,6 +2236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Sosa Riabtschenko_Iv\xE1n_48240955"
       objectReference: {fileID: 0}
+    - target: {fileID: 7491081140138243561, guid: 45562e54f6ae06a4bbd4f098bf430a87,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7491081140138600905, guid: 45562e54f6ae06a4bbd4f098bf430a87,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2349,9 +2397,9 @@ MonoBehaviour:
   - {fileID: 100000, guid: 932cfc6c9e99d624a88a59e6e23397ad, type: 3}
   - {fileID: 100000, guid: 6c1d7d0be60597e40bbb6f5d640b6921, type: 3}
   - {fileID: 100000, guid: 3cceece27c92ebf4783391e137c14bbe, type: 3}
-  objectSpawnPoint: {fileID: 0}
+  objectSpawnPoint: {fileID: 1396474752}
   interval: 0.6
-  randomSpawn: {fileID: 0}
+  randomSpawn: {fileID: 1396474751}
   objectCounter: 0
   maxSpawnedObjects: 4
 --- !u!4 &1033476429
@@ -2641,7 +2689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224660966}
   m_LocalRotation: {x: -0, y: -0.01604719, z: -0, w: 0.99987125}
-  m_LocalPosition: {x: 0.96, y: -6.07, z: 0.01}
+  m_LocalPosition: {x: 5.52, y: 8.44, z: 6.02}
   m_LocalScale: {x: 0.77249706, y: 1, z: 0.8908455}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2670,13 +2718,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1319222853}
   - component: {fileID: 1319222854}
+  - component: {fileID: 1319222855}
   m_Layer: 0
   m_Name: Tiberti_Juana_48038881 (Missing Prefab)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1319222853
 Transform:
   m_ObjectHideFlags: 0
@@ -2705,6 +2754,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1319222855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319222852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productoAsset: []
+  objectSpawnPoint: {fileID: 0}
+  interval: 0
+  randomSpawn: {fileID: 0}
+  objectCounter: 0
+  maxSpawnedObjects: 0
 --- !u!1 &1327477012
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,7 +2809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -38}
+  m_AnchoredPosition: {x: -8.6634, y: -122.91}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327477014
@@ -2851,6 +2918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: manzana
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6c1d7d0be60597e40bbb6f5d640b6921, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6c1d7d0be60597e40bbb6f5d640b6921, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.1
@@ -2861,7 +2932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6c1d7d0be60597e40bbb6f5d640b6921, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3812342
+      value: 2.52
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6c1d7d0be60597e40bbb6f5d640b6921, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2982,7 +3053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396474750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.57, y: -5.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3030,6 +3101,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3409602407273321993, guid: 1df18a94028edab4f8e174e691124840,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3124,7 +3199,7 @@ GameObject:
   - component: {fileID: 1586679008}
   - component: {fileID: 1586679007}
   m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
+  m_Name: Tiferes_David_48111030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3247,6 +3322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Esquinas Epstein_Nicolas_50202280
       objectReference: {fileID: 0}
+    - target: {fileID: 4294631857039698117, guid: 53f3c750a8653b645a13af2ae3f3e5eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f3c750a8653b645a13af2ae3f3e5eb, type: 3}
 --- !u!1 &1698861581 stripped
@@ -3350,6 +3430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Majic_Tobias Esteban_48240634
+      objectReference: {fileID: 0}
+    - target: {fileID: 3361452525252070653, guid: a5f2bc5de8f24f343be9304b2d1249bf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5f2bc5de8f24f343be9304b2d1249bf, type: 3}
@@ -3470,6 +3555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fernandez De La Torre_Joaquin_48180936
       objectReference: {fileID: 0}
+    - target: {fileID: 1356328215057463041, guid: 1ac4857ae27132f4294363e1ba8b882d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1356328215059392961, guid: 1ac4857ae27132f4294363e1ba8b882d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3527,6 +3617,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3cceece27c92ebf4783391e137c14bbe, type: 3}
       propertyPath: m_Name
       value: "Blanco_Joaqu\xEDn_48386218"
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3cceece27c92ebf4783391e137c14bbe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3cceece27c92ebf4783391e137c14bbe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3708,13 +3802,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2104498967}
   - component: {fileID: 2104498968}
+  - component: {fileID: 2104498969}
   m_Layer: 0
   m_Name: Tiferes_David_48111030 (Missing Prefab)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2104498967
 Transform:
   m_ObjectHideFlags: 0
@@ -3743,3 +3838,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2104498969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104498966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productoAsset: []
+  objectSpawnPoint: {fileID: 0}
+  interval: 0
+  randomSpawn: {fileID: 0}
+  objectCounter: 0
+  maxSpawnedObjects: 0
