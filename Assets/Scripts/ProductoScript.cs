@@ -12,7 +12,6 @@ public class ProductoScript : MonoBehaviour
     public int maxSpawnedObjects;
     void Start()
     {
-        DeactivateAll();
         InvokeRepeating(nameof(FoodSpawner), 0, interval);
         maxSpawnedObjects = Random.Range(2, 8);
     }
@@ -20,7 +19,7 @@ public class ProductoScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
     public void FoodSpawner()
     {
@@ -38,9 +37,5 @@ public class ProductoScript : MonoBehaviour
         {
             productoAsset[i].SetActive(false);
         }
-    }
-    void OnCollisionEnter(Collision colission) 
-    {
-        objectCounter++;
     }
 }
