@@ -15,6 +15,7 @@ public class ProductoScript : MonoBehaviour
     public InputField CantidadIngresada;
     public Text Txt_correcto;
     public Text Txt_incorrect;
+    public Text Txt_Ingresar;
     public GameObject Panel;
     
     void Start()
@@ -46,13 +47,16 @@ public class ProductoScript : MonoBehaviour
     public void BotonResponder()
     {
         Panel.SetActive(true);
-        int NumeroIngresado = int.Parse(CantidadIngresada.text);
-
-        if(NumeroIngresado == objectCounter)
+        
+        if (CantidadIngresada.text == "")
+        {
+            Txt_Ingresar.gameObject.SetActive(true);
+        }
+        else if (int.Parse(CantidadIngresada.text) == objectCounter)
         {
             Txt_correcto.gameObject.SetActive(true);
         }
-        else
+        else if (int.Parse(CantidadIngresada.text) != objectCounter)
         {
             Txt_incorrect.gameObject.SetActive(true);
         }
@@ -61,5 +65,6 @@ public class ProductoScript : MonoBehaviour
     public void CerrarPanel()
     {
         Panel.SetActive(false);
+        Txt_Ingresar.gameObject.SetActive(false);
     }
 }
