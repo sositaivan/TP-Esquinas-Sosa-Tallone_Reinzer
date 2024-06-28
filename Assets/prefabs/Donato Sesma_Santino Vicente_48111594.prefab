@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5599518083717590347}
   - component: {fileID: 5599518083718360427}
   - component: {fileID: 5599518083719491499}
-  - component: {fileID: 3496237777308432464}
-  - component: {fileID: 622859205651752943}
   - component: {fileID: 579926894993529664}
+  - component: {fileID: 622859205651752943}
   m_Layer: 0
   m_Name: Donato Sesma_Santino Vicente_48111594
   m_TagString: Untagged
@@ -29,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5599518083717493099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.055, z: 0}
-  m_LocalScale: {x: 1.9833, y: 1.9833, z: 1.9833}
+  m_LocalPosition: {x: -22.2, y: 24.161, z: 7.321}
+  m_LocalScale: {x: 3.3907652, y: 3.3907652, z: 3.3907652}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,37 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3496237777308432464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5599518083717493099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  productoAsset: []
-  objectSpawnPoint: {fileID: 0}
-  interval: 0
-  randomSpawn: {fileID: 0}
-  objectCounter: 0
-  maxSpawnedObjects: 0
---- !u!65 &622859205651752943
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5599518083717493099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.18448406, y: 0.44416234, z: 0.15124603}
-  m_Center: {x: 0.0011122376, y: 0.12506916, z: -0.00014761835}
 --- !u!54 &579926894993529664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +95,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &622859205651752943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599518083717493099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18448406, y: 0.44416234, z: 0.15124603}
+  m_Center: {x: 0.0011122376, y: 0.12506916, z: -0.00014761835}

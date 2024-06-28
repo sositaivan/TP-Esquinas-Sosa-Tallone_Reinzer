@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 3430925709284302355}
   - component: {fileID: 3430925709282975283}
   - component: {fileID: 3430925709281877235}
-  - component: {fileID: 9113433395766247991}
-  - component: {fileID: 4928539056465039170}
   - component: {fileID: 1014895426860912135}
+  - component: {fileID: 4928539056465039170}
   m_Layer: 0
   m_Name: Kovalsky Ninni_Agustin_48588255
   m_TagString: Untagged
@@ -29,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3430925709284131379}
   m_LocalRotation: {x: -1, y: -0.0000001872535, z: 0, w: 0}
-  m_LocalPosition: {x: -0, y: -0.086, z: 0}
-  m_LocalScale: {x: 3.610138, y: 3.610138, z: 3.610138}
+  m_LocalPosition: {x: -23.565, y: 23.463, z: 6.3949}
+  m_LocalScale: {x: 4.5979724, y: 4.5979724, z: 4.5979724}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,37 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &9113433395766247991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3430925709284131379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  productoAsset: []
-  objectSpawnPoint: {fileID: 0}
-  interval: 0
-  randomSpawn: {fileID: 0}
-  objectCounter: 0
-  maxSpawnedObjects: 0
---- !u!65 &4928539056465039170
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3430925709284131379}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2629322, y: 0.04687215, z: 0.1734145}
-  m_Center: {x: -0.0040496965, y: -0.0018474713, z: -0.049295455}
 --- !u!54 &1014895426860912135
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +95,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4928539056465039170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430925709284131379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26293215, y: 0.046872143, z: 0.17341447}
+  m_Center: {x: -0.0040496956, y: -0.001847471, z: -0.049295444}

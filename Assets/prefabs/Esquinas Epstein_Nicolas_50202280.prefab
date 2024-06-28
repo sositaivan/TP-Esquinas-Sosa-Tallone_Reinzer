@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 4294631857039537381}
   - component: {fileID: 4294631857038734533}
   - component: {fileID: 4294631857037768197}
-  - component: {fileID: 8526547812746735865}
-  - component: {fileID: 3358786868994193109}
   - component: {fileID: 6945216754298788408}
+  - component: {fileID: 3358786868994193109}
   m_Layer: 0
   m_Name: Esquinas Epstein_Nicolas_50202280
   m_TagString: Untagged
@@ -29,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4294631857039698117}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000026121867}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.28906, y: 0.28906, z: 0.28906}
+  m_LocalPosition: {x: -21.892, y: 23.182, z: 4.623475}
+  m_LocalScale: {x: 0.45063677, y: 0.45063677, z: 0.45063677}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,37 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8526547812746735865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4294631857039698117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  productoAsset: []
-  objectSpawnPoint: {fileID: 0}
-  interval: 0
-  randomSpawn: {fileID: 0}
-  objectCounter: 0
-  maxSpawnedObjects: 0
---- !u!65 &3358786868994193109
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4294631857039698117}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.9921663, y: 3.033387, z: 2}
-  m_Center: {x: -0.0039168596, y: -0.5928141, z: 0}
 --- !u!54 &6945216754298788408
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +95,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3358786868994193109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294631857039698117}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9921662, y: 3.0333867, z: 1.9999999}
+  m_Center: {x: -0.003916859, y: -0.592814, z: 0}
