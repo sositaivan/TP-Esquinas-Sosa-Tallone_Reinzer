@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1356328215057099553}
   - component: {fileID: 1356328215058393857}
   - component: {fileID: 1356328215059392961}
-  - component: {fileID: 121275165624373818}
+  - component: {fileID: 6862741033697166467}
+  - component: {fileID: 8839906387429742125}
   m_Layer: 0
   m_Name: Fernandez De La Torre_Joaquin_48180936
   m_TagString: Untagged
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356328215057463041}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.173, z: 0}
-  m_LocalScale: {x: 0.32483417, y: 0.32483417, z: 0.32483417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.278, y: 23.884, z: 5.710273}
+  m_LocalScale: {x: 0.5198308, y: 0.5198308, z: 0.5198308}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,8 +59,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5397066e3da90ea4abd2b19bc007c52d, type: 3}
-  - {fileID: 2100002, guid: 5397066e3da90ea4abd2b19bc007c52d, type: 3}
+  - {fileID: 2100000, guid: ee2597e99c537fd4297f4c4cf2fb3026, type: 2}
+  - {fileID: 2100000, guid: ee2597e99c537fd4297f4c4cf2fb3026, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,15 +80,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &121275165624373818
-MonoBehaviour:
+--- !u!54 &6862741033697166467
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356328215057463041}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8839906387429742125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356328215057463041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 2
+  m_Size: {x: 1.494865, y: 2.7315762, z: 2.0000002}
+  m_Center: {x: 0.20362416, y: 0.3657881, z: 0.00000011920929}
