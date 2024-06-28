@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3430925709282975283}
   - component: {fileID: 3430925709281877235}
   - component: {fileID: 9113433395766247991}
+  - component: {fileID: 4928539056465039170}
+  - component: {fileID: 1014895426860912135}
   m_Layer: 0
   m_Name: Kovalsky Ninni_Agustin_48588255
   m_TagString: Untagged
@@ -26,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3430925709284131379}
-  m_LocalRotation: {x: 1, y: -0, z: 0, w: -0.00000019470718}
+  m_LocalRotation: {x: -1, y: -0.0000001872535, z: 0, w: 0}
   m_LocalPosition: {x: -0, y: -0.086, z: 0}
   m_LocalScale: {x: 3.610138, y: 3.610138, z: 3.610138}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: -0.000015258789}
 --- !u!33 &3430925709282975283
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -58,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d0729b01bc5023d4ca482f8d5afcf6f1, type: 3}
+  - {fileID: 2100000, guid: ee2597e99c537fd4297f4c4cf2fb3026, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -90,3 +92,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3642bb764b7b7e34fa0bdb8591decb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  productoAsset: []
+  objectSpawnPoint: {fileID: 0}
+  interval: 0
+  randomSpawn: {fileID: 0}
+  objectCounter: 0
+  maxSpawnedObjects: 0
+--- !u!65 &4928539056465039170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430925709284131379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2629322, y: 0.04687215, z: 0.1734145}
+  m_Center: {x: -0.0040496965, y: -0.0018474713, z: -0.049295455}
+--- !u!54 &1014895426860912135
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430925709284131379}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

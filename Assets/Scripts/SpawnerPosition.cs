@@ -8,7 +8,7 @@ public class SpawnerPosition : MonoBehaviour
     public void SetRandomPosition()
     {
 
-        Vector3 newPosition = new Vector3(Random.Range(0, offset), 9, Random.Range(0, offset));
+        Vector3 newPosition = new Vector3(Random.Range(0, offset), 15, Random.Range(0, offset));
         transform.position = newPosition;
     }
 }

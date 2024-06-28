@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ProductoScript : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class ProductoScript : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(FoodSpawner), 0, interval);
-        maxSpawnedObjects = Random.Range(5, 12);
+        maxSpawnedObjects = Random.Range(5, 15);
     }
 
     // Update is called once per frame
@@ -37,5 +38,9 @@ public class ProductoScript : MonoBehaviour
         {
             productoAsset[i].SetActive(false);
         }
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
