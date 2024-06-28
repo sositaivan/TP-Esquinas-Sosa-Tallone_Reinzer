@@ -1916,6 +1916,9 @@ MonoBehaviour:
   randomSpawn: {fileID: 1396474751}
   objectCounter: 0
   maxSpawnedObjects: 4
+  CantidadIngresada: {fileID: 1327477014}
+  Txt_correcto: {fileID: 171758934}
+  Txt_incorrect: {fileID: 1070596633}
 --- !u!4 &1033476429
 Transform:
   m_ObjectHideFlags: 0
