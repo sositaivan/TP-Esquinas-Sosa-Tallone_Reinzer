@@ -15,11 +15,13 @@ public class ProductoScript : MonoBehaviour
     public InputField CantidadIngresada;
     public Text Txt_correcto;
     public Text Txt_incorrect;
+    public GameObject Panel;
     
     void Start()
     {
         InvokeRepeating(nameof(ProductSpawner), 0, interval);
         maxSpawnedObjects = Random.Range(5, 15);
+        Panel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,7 +45,9 @@ public class ProductoScript : MonoBehaviour
     }
     public void BotonResponder()
     {
+        Panel.SetActive(true);
         int NumeroIngresado = int.Parse(CantidadIngresada.text);
+
         if(NumeroIngresado == objectCounter)
         {
             Txt_correcto.gameObject.SetActive(true);
@@ -52,5 +56,10 @@ public class ProductoScript : MonoBehaviour
         {
             Txt_incorrect.gameObject.SetActive(true);
         }
+
+    }
+    public void CerrarPanel()
+    {
+        Panel.SetActive(false);
     }
 }
